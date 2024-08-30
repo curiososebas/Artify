@@ -76,9 +76,49 @@
         </form>  
     </div>  
     <div class="form-container">  
-         <h3>MIS DEPORTES FAVORITOS</h3>  
+         <!doctype html>  
+<html lang="es">  
+<head>  
+    <meta charset="utf-8" />  
+    <title>Formularios Variados</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: #f5f5dc; /* Beige */  
+            margin: 0;  
+            padding: 0;  
+        }  
+        .form-container {  
+            margin: 20px;  
+            padding: 20px;  
+            background-color: #ffffff;  
+            border: 2px solid;  
+        }  
+        .form-container:nth-of-type(1) {  
+            border-color: #ff6347; /* Tomate */  
+        }  
+        .form-container:nth-of-type(2) {  
+            border-color: #32cd32; /* LimeGreen */  
+        }  
+        h3 {  
+            border-bottom: 2px solid;  
+            padding-bottom: 10px;  
+        }  
+        label {  
+            display: block;  
+            margin-bottom: 10px;  
+        }  
+        fieldset {  
+            border: none;  
+            margin-top: 10px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="form-container">  
+        <h3>MIS DEPORTES FAVORITOS</h3>  
         <form action="#" method="post">  
-            <label>Nombre: <input type="text" name="nombre2" placeholder="Escribe tu nombre" size="30" maxlength="25" required></label>  
+            <label>Nombre: <input type="text" name="nombre2" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label>  
             <label>Sexo:   
                 Hombre <input type="radio" name="sexo2" value="h">  
                 Mujer <input type="radio" name="sexo2" value="m">  
@@ -103,10 +143,11 @@
             </p>  
         </form>  
     </div>  
+
     <div class="form-container">  
         <h3>CANCIONES PREFERIDAS</h3>  
         <form action="#" method="post">  
-            <label>Nombre: <input type="text" name="nombre3" placeholder="Escribe tu nombre" size="30" maxlength="25" required></label>  
+            <label>Nombre: <input type="text" name="nombre3" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label>  
             <label>Sexo:   
                 Hombre <input type="radio" name="sexo3" value="h">  
                 Mujer <input type="radio" name="sexo3" value="m">  
