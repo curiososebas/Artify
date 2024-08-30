@@ -1,4 +1,3 @@
-
 <!doctype html>  
 <html lang="es">  
 <head>  
@@ -77,69 +76,60 @@
         </form>  
     </div>  
     <div class="form-container">  
-        <h3>MIS DEPORTES FAVORITOS</h3>  
+         <h3>MIS DEPORTES FAVORITOS</h3>  
         <form action="#" method="post">  
-            <label>Nombre: <input type="text" name="nombre2" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label><br>  
-            <label>Sexo: Hombre <input type="radio" name="sexo2" value="h"></label>  
-            <label>Mujer <input type="radio" name="sexo2" value="m"></label><br>  
-            <label>Correo electrónico: <input type="email" name="email2" placeholder="Escribe tu  nombre" autofocus size="30" maxlength="25" required></label><br>
-            <label>Sexo: Hombre <input type="radio" name="sexo2" value="h"></label>
-            <label>Mujer <input type="radio" name="sexo2" value="m"></label><br>
-
-            <!-- Campos específicos del formulario -->
-            <label>Correo electrónico: <input type="email" name="email2" placeholder="Escribe tu correo electrónico" required></label>
-            <label>Deporte 1: <input type="text" name="deporte1" placeholder="Nombre del deporte 1"></label>
-            <label>Deporte 2: <input type="text" name="deporte2" placeholder="Nombre del deporte 2"></label>
-            <label>Deporte 3: <input type="text" name="deporte3" placeholder="Nombre del deporte 3"></label>
-            <label>Deporte 4: <input type="text" name="deporte4" placeholder="Nombre del deporte 4"></label>
-            <label>Deporte 5: <input type="text" name="deporte5" placeholder="Nombre del deporte 5"></label>
-            <label>Deporte 6: <input type="text" name="deporte6" placeholder="Nombre del deporte 6"></label>
-            <fieldset>
-                <legend>Mi opinión:</legend>
-                <label><input type="radio" name="opinion2" value="Genial"> Genial</label>
-                <label><input type="radio" name="opinion2" value="Regular"> Regular</label>
-                <label><input type="radio" name="opinion2" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>
-            </fieldset>
-
-            <!-- Campos al final del formulario -->
-            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond2" checked></label>
-            <p>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
-    </div>
-
-    <div class="form-container">
-        <h3>CANCIONES PREFERIDAS</h3>
-        <form action="#" method="post">
-            <!-- Campos al inicio del formulario -->
-            <label>Nombre: <input type="text" name="nombre3" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label><br>
-            <label>Sexo: Hombre <input type="radio" name="sexo3" value="h"></label>
-            <label>Mujer <input type="radio" name="sexo3" value="m"></label><br>
-
-            <!-- Campos específicos del formulario -->
-            <label>Correo electrónico: <input type="email" name="email3" placeholder="Escribe tu correo electrónico" required></label>
-            <label>Canción 1: <input type="text" name="cancion1" placeholder="Nombre de la canción 1"></label>
-            <label>Canción 2: <input type="text" name="cancion2" placeholder="Nombre de la canción 2"></label>
-            <label>Canción 3: <input type="text" name="cancion3" placeholder="Nombre de la canción 3"></label>
-            <label>Canción 4: <input type="text" name="cancion4" placeholder="Nombre de la canción 4"></label>
-            <label>Canción 5: <input type="text" name="cancion5" placeholder="Nombre de la canción 5"></label>
-            <label>Canción 6: <input type="text" name="cancion6" placeholder="Nombre de la canción 6"></label>
-            <fieldset>
-                <legend>Mi opinión:</legend>
-                <label><input type="radio" name="opinion3" value="Genial"> Genial</label>
-                <label><input type="radio" name="opinion3" value="Regular"> Regular</label>
-                <label><input type="radio" name="opinion3" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>
-            </fieldset>
-
-            <!-- Campos al final del formulario -->
-            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond3" checked></label>
-            <p>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
-    </div>
-</body>
-</html>
+            <label>Nombre: <input type="text" name="nombre2" placeholder="Escribe tu nombre" size="30" maxlength="25" required></label>  
+            <label>Sexo:   
+                Hombre <input type="radio" name="sexo2" value="h">  
+                Mujer <input type="radio" name="sexo2" value="m">  
+            </label>  
+            <label>Correo electrónico: <input type="email" name="email2" placeholder="Escribe tu correo electrónico" required></label>  
+            <label>Deporte 1: <input type="text" name="deporte1" placeholder="Nombre del deporte 1"></label>  
+            <label>Deporte 2: <input type="text" name="deporte2" placeholder="Nombre del deporte 2"></label>  
+            <label>Deporte 3: <input type="text" name="deporte3" placeholder="Nombre del deporte 3"></label>  
+            <label>Deporte 4: <input type="text" name="deporte4" placeholder="Nombre del deporte 4"></label>  
+            <label>Deporte 5: <input type="text" name="deporte5" placeholder="Nombre del deporte 5"></label>  
+            <label>Deporte 6: <input type="text" name="deporte6" placeholder="Nombre del deporte 6"></label>  
+            <fieldset>  
+                <legend>Mi opinión:</legend>  
+                <label><input type="radio" name="opinion2" value="Genial"> Genial</label>  
+                <label><input type="radio" name="opinion2" value="Regular"> Regular</label>  
+                <label><input type="radio" name="opinion2" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>  
+            </fieldset>  
+            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond2" checked></label>  
+            <p>  
+                <input type="reset" value="Borrar">  
+                <input type="submit" value="Enviar">  
+            </p>  
+        </form>  
+    </div>  
+    <div class="form-container">  
+        <h3>CANCIONES PREFERIDAS</h3>  
+        <form action="#" method="post">  
+            <label>Nombre: <input type="text" name="nombre3" placeholder="Escribe tu nombre" size="30" maxlength="25" required></label>  
+            <label>Sexo:   
+                Hombre <input type="radio" name="sexo3" value="h">  
+                Mujer <input type="radio" name="sexo3" value="m">  
+            </label>  
+            <label>Correo electrónico: <input type="email" name="email3" placeholder="Escribe tu correo electrónico" required></label>  
+            <label>Canción 1: <input type="text" name="cancion1" placeholder="Nombre de la canción 1"></label>  
+            <label>Canción 2: <input type="text" name="cancion2" placeholder="Nombre de la canción 2"></label>  
+            <label>Canción 3: <input type="text" name="cancion3" placeholder="Nombre de la canción 3"></label>  
+            <label>Canción 4: <input type="text" name="cancion4" placeholder="Nombre de la canción 4"></label>  
+            <label>Canción 5: <input type="text" name="cancion5" placeholder="Nombre de la canción 5"></label>  
+            <label>Canción 6: <input type="text" name="cancion6" placeholder="Nombre de la canción 6"></label>  
+            <fieldset>  
+                <legend>Mi opinión:</legend>  
+                <label><input type="radio" name="opinion3" value="Genial"> Genial</label>  
+                <label><input type="radio" name="opinion3" value="Regular"> Regular</label>  
+                <label><input type="radio" name="opinion3" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>  
+            </fieldset>  
+            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond3" checked></label>  
+            <p>  
+                <input type="reset" value="Borrar">  
+                <input type="submit" value="Enviar">  
+            </p>  
+        </form>  
+    </div>  
+</body>  
+</html>  
