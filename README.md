@@ -73,8 +73,6 @@ Evaluacion aplicada Sebastian Barragan 10A
         </form>  
     </div>  
     <div class="form-container">  
-         <!doctype html>  
-<html lang="es">  
 <head>  
     <meta charset="utf-8" />  
     <title>Formularios Variados</title>  
