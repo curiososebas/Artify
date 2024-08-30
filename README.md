@@ -1,4 +1,3 @@
-<!doctype html>  
 <html lang="es">  
 <head>  
     <meta charset="utf-8" />  
@@ -59,9 +58,6 @@
             <label>Serie 1: <input type="text" name="serie1" placeholder="Nombre de la serie 1"></label>  
             <label>Serie 2: <input type="text" name="serie2" placeholder="Nombre de la serie 2"></label>  
             <label>Serie 3: <input type="text" name="serie3" placeholder="Nombre de la serie 3"></label>  
-            <label>Serie 4: <input type="text" name="serie4" placeholder="Nombre de la serie 4"></label>  
-            <label>Serie 5: <input type="text" name="serie5" placeholder="Nombre de la serie 5"></label>  
-            <label>Serie 6: <input type="text" name="serie6" placeholder="Nombre de la serie 6"></label>  
             <fieldset>  
                 <legend>Mi opinión:</legend>  
                 <label><input type="radio" name="opinion1" value="Genial"> Genial</label>  
@@ -127,9 +123,6 @@
             <label>Deporte 1: <input type="text" name="deporte1" placeholder="Nombre del deporte 1"></label>  
             <label>Deporte 2: <input type="text" name="deporte2" placeholder="Nombre del deporte 2"></label>  
             <label>Deporte 3: <input type="text" name="deporte3" placeholder="Nombre del deporte 3"></label>  
-            <label>Deporte 4: <input type="text" name="deporte4" placeholder="Nombre del deporte 4"></label>  
-            <label>Deporte 5: <input type="text" name="deporte5" placeholder="Nombre del deporte 5"></label>  
-            <label>Deporte 6: <input type="text" name="deporte6" placeholder="Nombre del deporte 6"></label>  
             <fieldset>  
                 <legend>Mi opinión:</legend>  
                 <label><input type="radio" name="opinion2" value="Genial"> Genial</label>  
@@ -156,9 +149,6 @@
             <label>Canción 1: <input type="text" name="cancion1" placeholder="Nombre de la canción 1"></label>  
             <label>Canción 2: <input type="text" name="cancion2" placeholder="Nombre de la canción 2"></label>  
             <label>Canción 3: <input type="text" name="cancion3" placeholder="Nombre de la canción 3"></label>  
-            <label>Canción 4: <input type="text" name="cancion4" placeholder="Nombre de la canción 4"></label>  
-            <label>Canción 5: <input type="text" name="cancion5" placeholder="Nombre de la canción 5"></label>  
-            <label>Canción 6: <input type="text" name="cancion6" placeholder="Nombre de la canción 6"></label>  
             <fieldset>  
                 <legend>Mi opinión:</legend>  
                 <label><input type="radio" name="opinion3" value="Genial"> Genial</label>  
