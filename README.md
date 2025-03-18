@@ -99,21 +99,21 @@
     <div class="product-gallery">
         <!-- Product 1 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+1" alt="Cuadro Spotify 1">
+            <img src="[https://via.placeholder.com/250x250?text=Cuadro+Spotify+1" alt="Cuadro Spotify 1](https://static.wixstatic.com/media/49f626_190eec366016495fbcac4252a8e4dfb8~mv2.jpeg/v1/fill/w_560,h_706,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/49f626_190eec366016495fbcac4252a8e4dfb8~mv2.jpeg)">
             <h3>Cuadro Acrílico 1</h3>
             <p>Personalizado con tu canción favorita.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
         <!-- Product 2 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+2" alt="Cuadro Spotify 2">
+            <img src="[https://via.placeholder.com/250x250?text=Cuadro+Spotify+2" alt="Cuadro Spotify 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS675ShD8G6cQNW0EFEEW4AVlTOpLj1F5cduQ&s)">
             <h3>Cuadro Acrílico 2</h3>
             <p>El regalo perfecto para los amantes de la música.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
         <!-- Product 3 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+3" alt="Cuadro Spotify 3">
+            <img src="[https://via.placeholder.com/250x250?text=Cuadro+Spotify+3" alt="Cuadro Spotify 3](https://tiendaglobal.org/wp-content/uploads/2023/04/placa-spotify-pereira.jpg)">
             <h3>Cuadro Acrílico 3</h3>
             <p>Da vida a tus canciones favoritas en una obra de arte.</p>
             <a href="#" class="btn">Comprar ahora</a>
