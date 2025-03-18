@@ -1,148 +1,122 @@
-Evaluacion aplicada Sebastian Barragan 10A
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <title>Formularios Variados</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artify - Cuadros de Spotify</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5dc; /* Beige */
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
         }
-        .form-container {
-            margin: 20px;
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
             padding: 20px;
-            background-color: #ffffff;
-            border: 2px solid;
         }
-        .form-container:nth-of-type(1) {
-            border-color: #ff6347; /* Tomate */
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
-        .form-container:nth-of-type(2) {
-            border-color: #32cd32; /* LimeGreen */
+        section {
+            padding: 40px;
+            text-align: center;
         }
-        .form-container:nth-of-type(3) {
-            border-color: #1e90ff; /* DodgerBlue */
+        .slogan {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #333;
         }
-        h3 {
-            border-bottom: 2px solid;
-            padding-bottom: 10px;
+        .product-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
         }
-        .form-container:nth-of-type(1) h3 {
-            border-color: #ff6347; /* Tomate */
+        .product-card {
+            width: 250px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
         }
-        .form-container:nth-of-type(2) h3 {
-            border-color: #32cd32; /* LimeGreen */
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
-        .form-container:nth-of-type(3) h3 {
-            border-color: #1e90ff; /* DodgerBlue */
+        .product-card h3 {
+            margin: 15px 0;
+            font-size: 1.2em;
         }
-        label {
-            display: block;
-            margin-bottom: 10px;
+        .btn {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
         }
-        fieldset {
-            border: none;
-            margin-top: 10px;
+        .btn:hover {
+            background-color: #ff3333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="form-container">
-        <h3>LAS MEJORES SERIES DE NETFLIX</h3>
-        <form action="#" method="post">
-            <!-- Campos al inicio del formulario -->
-            <label>Nombre: <input type="text" name="nombre1" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label><br>
-            <label>Sexo: Hombre <input type="radio" name="sexo1" value="h"></label>
-            <label>Mujer <input type="radio" name="sexo1" value="m"></label><br>
 
-            <!-- Campos específicos del formulario -->
-            <label>Correo electrónico: <input type="email" name="email1" placeholder="Escribe tu correo electronico" required></label>
-            <label>Serie 1: <input type="text" name="serie1" placeholder="Nombre de la serie 1"></label>
-            <label>Serie 2: <input type="text" name="serie2" placeholder="Nombre de la serie 2"></label>
-            <label>Serie 3: <input type="text" name="serie3" placeholder="Nombre de la serie 3"></label>
-            <label>Serie 4: <input type="text" name="serie4" placeholder="Nombre de la serie 4"></label>
-            <label>Serie 5: <input type="text" name="serie5" placeholder="Nombre de la serie 5"></label>
-            <label>Serie 6: <input type="text" name="serie6" placeholder="Nombre de la serie 6"></label>
-            <fieldset>
-                <legend>Mi opinión:</legend>
-                <label><input type="radio" name="opinion1" value="Genial"> Genial</label>
-                <label><input type="radio" name="opinion1" value="Regular"> Regular</label>
-                <label><input type="radio" name="opinion1" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>
-            </fieldset>
+<header>
+    <h1>Artify</h1>
+    <p>El arte de la música en cada cuadro</p>
+</header>
 
-            <!-- Campos al final del formulario -->
-            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond1" checked></label>
-            <p>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
+<section>
+    <h2>Bienvenido a Artify</h2>
+    <p class="slogan">Convierte tu música favorita en arte visual. Cuadros acrílicos personalizados con tus canciones de Spotify.</p>
+    
+    <div class="product-gallery">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 1">
+            <h3>Cuadro Acrílico 1</h3>
+            <p>Personalizado con tu canción favorita.</p>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 2">
+            <h3>Cuadro Acrílico 2</h3>
+            <p>El regalo perfecto para los amantes de la música.</p>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 3">
+            <h3>Cuadro Acrílico 3</h3>
+            <p>Da vida a tus canciones favoritas en una obra de arte.</p>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
     </div>
+</section>
 
-    <div class="form-container">
-        <h3>MIS DEPORTES FAVORITOS</h3>
-        <form action="#" method="post">
-            <!-- Campos al inicio del formulario -->
-            <label>Nombre: <input type="text" name="nombre2" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label><br>
-            <label>Sexo: Hombre <input type="radio" name="sexo2" value="h"></label>
-            <label>Mujer <input type="radio" name="sexo2" value="m"></label><br>
+<footer>
+    <p>© 2025 Artify. Todos los derechos reservados.</p>
+    <p>Creado por: D. Morales, J. Sanaría y S. Barragán</p>
+</footer>
 
-            <!-- Campos específicos del formulario -->
-            <label>Correo electrónico: <input type="email" name="email2" placeholder="Escribe tu correo electrónico" required></label>
-            <label>Deporte 1: <input type="text" name="deporte1" placeholder="Nombre del deporte 1"></label>
-            <label>Deporte 2: <input type="text" name="deporte2" placeholder="Nombre del deporte 2"></label>
-            <label>Deporte 3: <input type="text" name="deporte3" placeholder="Nombre del deporte 3"></label>
-            <label>Deporte 4: <input type="text" name="deporte4" placeholder="Nombre del deporte 4"></label>
-            <label>Deporte 5: <input type="text" name="deporte5" placeholder="Nombre del deporte 5"></label>
-            <label>Deporte 6: <input type="text" name="deporte6" placeholder="Nombre del deporte 6"></label>
-            <fieldset>
-                <legend>Mi opinión:</legend>
-                <label><input type="radio" name="opinion2" value="Genial"> Genial</label>
-                <label><input type="radio" name="opinion2" value="Regular"> Regular</label>
-                <label><input type="radio" name="opinion2" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>
-            </fieldset>
-
-            <!-- Campos al final del formulario -->
-            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond2" checked></label>
-            <p>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
-    </div>
-
-    <div class="form-container">
-        <h3>CANCIONES PREFERIDAS</h3>
-        <form action="#" method="post">
-            <!-- Campos al inicio del formulario -->
-            <label>Nombre: <input type="text" name="nombre3" placeholder="Escribe tu nombre" autofocus size="30" maxlength="25" required></label><br>
-            <label>Sexo: Hombre <input type="radio" name="sexo3" value="h"></label>
-            <label>Mujer <input type="radio" name="sexo3" value="m"></label><br>
-
-            <!-- Campos específicos del formulario -->
-            <label>Correo electrónico: <input type="email" name="email3" placeholder="Escribe tu correo electrónico" required></label>
-            <label>Canción 1: <input type="text" name="cancion1" placeholder="Nombre de la canción 1"></label>
-            <label>Canción 2: <input type="text" name="cancion2" placeholder="Nombre de la canción 2"></label>
-            <label>Canción 3: <input type="text" name="cancion3" placeholder="Nombre de la canción 3"></label>
-            <label>Canción 4: <input type="text" name="cancion4" placeholder="Nombre de la canción 4"></label>
-            <label>Canción 5: <input type="text" name="cancion5" placeholder="Nombre de la canción 5"></label>
-            <label>Canción 6: <input type="text" name="cancion6" placeholder="Nombre de la canción 6"></label>
-            <fieldset>
-                <legend>Mi opinión:</legend>
-                <label><input type="radio" name="opinion3" value="Genial"> Genial</label>
-                <label><input type="radio" name="opinion3" value="Regular"> Regular</label>
-                <label><input type="radio" name="opinion3" value="Pudo haber estado mejor"> Pudo haber estado mejor</label>
-            </fieldset>
-
-            <!-- Campos al final del formulario -->
-            <label>Acepto las condiciones de privacidad: <input type="checkbox" name="cond3" checked></label>
-            <p>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
-    </div>
 </body>
-</html>  
+</html>
