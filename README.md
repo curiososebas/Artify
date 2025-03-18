@@ -31,6 +31,12 @@
             margin: 20px 0;
             color: #333;
         }
+        .intro-text {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
         .product-gallery {
             display: flex;
             justify-content: center;
@@ -86,26 +92,28 @@
 
 <section>
     <h2>Bienvenido a Artify</h2>
+    <p class="intro-text">En Artify te ofrecemos una manera única de fusionar la música con el arte. Nuestros cuadros acrílicos personalizados están inspirados en tus canciones favoritas de Spotify, creando una pieza visual que refleja el espíritu de tu música preferida. Puedes elegir tu canción, tu diseño y nosotros nos encargamos de crear una obra exclusiva para ti. ¡Transforma tu espacio con arte único que te conecta con lo que más amas!</p>
+    
     <p class="slogan">Convierte tu música favorita en arte visual. Cuadros acrílicos personalizados con tus canciones de Spotify.</p>
     
     <div class="product-gallery">
         <!-- Product 1 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 1">
+            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+1" alt="Cuadro Spotify 1">
             <h3>Cuadro Acrílico 1</h3>
             <p>Personalizado con tu canción favorita.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
         <!-- Product 2 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 2">
+            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+2" alt="Cuadro Spotify 2">
             <h3>Cuadro Acrílico 2</h3>
             <p>El regalo perfecto para los amantes de la música.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
         <!-- Product 3 -->
         <div class="product-card">
-            <img src="https://via.placeholder.com/250" alt="Cuadro Spotify 3">
+            <img src="https://via.placeholder.com/250x250?text=Cuadro+Spotify+3" alt="Cuadro Spotify 3">
             <h3>Cuadro Acrílico 3</h3>
             <p>Da vida a tus canciones favoritas en una obra de arte.</p>
             <a href="#" class="btn">Comprar ahora</a>
@@ -120,3 +128,4 @@
 
 </body>
 </html>
+
