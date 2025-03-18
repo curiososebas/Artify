@@ -1,6 +1,6 @@
-
+<!DOCTYPE html>
 <html lang="es">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -45,16 +45,21 @@
         }
         .product-card {
             width: 250px;
-            background-color: white;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             text-align: center;
+            color: white;
+            font-weight: bold;
         }
-        .product-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
+        .product-card:nth-child(1) {
+            background-color: #f5f5dc; /* Beige */
+        }
+        .product-card:nth-child(2) {
+            background-color: #d3d3d3; /* Gris */
+        }
+        .product-card:nth-child(3) {
+            background-color: #a8b7a3; /* Verde Platinado */
         }
         .product-card h3 {
             margin: 15px 0;
@@ -92,27 +97,25 @@
 
 <section>
     <h2>Bienvenido a Artify</h2>
-    <p class="intro-text">En Artify te ofrecemos una manera única de fusionar la música con el arte. Nuestros cuadros acrílicos personalizados están inspirados en tus canciones favoritas de Spotify, creando una pieza visual que refleja el espíritu de tu música preferida. Puedes elegir tu canción, tu diseño y nosotros nos encargamos de crear una obra exclusiva para ti. ¡Transforma tu espacio con arte único que te conecta con lo que más amas!</p>
-     <p class="slogan">Convierte tu música favorita en arte visual. Cuadros acrílicos personalizados con tus canciones de Spotify.</p>
+    <p class="intro-text">En Artify, fusionamos el mundo de la música con el arte visual. Imagina tener una obra personalizada con tu canción favorita de Spotify. Cada cuadro está diseñado para capturar la esencia de tu música y transformarla en una obra de arte única para tu hogar u oficina. Ya sea para ti o como regalo especial, Artify te ofrece un producto que va más allá de la simple decoración. ¡Atrévete a tener tu música plasmada en arte!</p>
+    
+    <p class="slogan">Convierte tu música favorita en arte visual. Cuadros acrílicos personalizados con tus canciones de Spotify.</p>
     
     <div class="product-gallery">
-        <!-- Product 1 -->
+        <!-- Product 1 (Beige) -->
         <div class="product-card">
-            <img src="[[https://via.placeholder.com/250x250?text=Cuadro+Spotify+1](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.detalleslovebirds.com%2Fproduct-page%2Fcuadro-acrilico-spotify-n-2&psig=AOvVaw3-cnr-4s-BMZGxVrNZ62Gb&ust=1742382018670000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiwx_28k4wDFQAAAAAdAAAAABAR)" alt="Cuadro Spotify 1](https://static.wixstatic.com/media/49f626_190eec366016495fbcac4252a8e4dfb8~mv2.jpeg/v1/fill/w_560,h_706,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/49f626_190eec366016495fbcac4252a8e4dfb8~mv2.jpeg)">
             <h3>Cuadro Acrílico 1</h3>
             <p>Personalizado con tu canción favorita.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
-        <!-- Product 2 -->
+        <!-- Product 2 (Gray) -->
         <div class="product-card">
-            <img src="[[https://via.placeholder.com/250x250?text=Cuadro+Spotify+2" alt="Cuadro Spotify 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS675ShD8G6cQNW0EFEEW4AVlTOpLj1F5cduQ&s)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fpuntoaivisual%2Fp%2FCIRp5p4hYXq%2F&psig=AOvVaw3-cnr-4s-BMZGxVrNZ62Gb&ust=1742382018670000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiwx_28k4wDFQAAAAAdAAAAABAZ)">
             <h3>Cuadro Acrílico 2</h3>
             <p>El regalo perfecto para los amantes de la música.</p>
             <a href="#" class="btn">Comprar ahora</a>
         </div>
-        <!-- Product 3 -->
+        <!-- Product 3 (Platinum Green) -->
         <div class="product-card">
-            <img src="[[https://via.placeholder.com/250x250?text=Cuadro+Spotify+3" alt="Cuadro Spotify 3](https://tiendaglobal.org/wp-content/uploads/2023/04/placa-spotify-pereira.jpg)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpuraimpresion.com%2Fproducts%2Fcuadro-acrilico-spotify&psig=AOvVaw3-cnr-4s-BMZGxVrNZ62Gb&ust=1742382018670000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiwx_28k4wDFQAAAAAdAAAAABAh)">
             <h3>Cuadro Acrílico 3</h3>
             <p>Da vida a tus canciones favoritas en una obra de arte.</p>
             <a href="#" class="btn">Comprar ahora</a>
@@ -127,4 +130,5 @@
 
 </body>
 </html>
+
 
